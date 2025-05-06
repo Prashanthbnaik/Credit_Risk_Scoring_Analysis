@@ -1,51 +1,59 @@
-# Credit Risk Scoring Dashboard
+# Credit Risk Scoring Analysis
 
-## Overview  
-This project analyzes credit risk using historical loan data and presents insights through an interactive Power BI dashboard. The analysis supports data-driven decision-making in financial institutions for assessing borrower risk and optimizing loan strategies.
-
----
-
-## Key Highlights  
-- **Total Loan Amount Analyzed:** $34.0B  
-- **Loans Issued:** 2.3M  
-- **Outstanding Balance:** $37.7B  
-- **Average Interest Rate:** 13.1%  
-- **Default Rate:** 13.4%  
+## Overview
+This project analyzes loan application and borrower behavior data from LendingClub to build a credit risk scoring system. By leveraging Power BI, Power Query, and SQL on a dataset of over 1.4 million rows, the goal is to help lenders assess applicant risk levels and make informed approval decisions.
 
 ---
 
-## Core Insights  
-- Loan Grade C and B together account for over **$19B** in issued loans.  
-- Default rate trends show a peak post-2010 with a gradual decline in recent years.  
-- **60-month loans** carry higher interest rates, making up nearly **65%** of the total interest income.  
-- Most defaults are associated with purposes like **small business**, **renewable energy**, and **moving** loans.  
-- Grade-wise income distribution reveals Grade B borrowers with the highest annual income share (~$52B).  
-
----
-
-## Tools Used  
+## Tools Used
 - Power BI  
+- Power Query  
 - SQL  
-- DAX  
 
 ---
 
-## Business Impact  
-- Enables financial institutions to evaluate loan performance by borrower grade and purpose.  
-- Improves risk mitigation by tracking default rate patterns over time.  
-- Supports targeted loan strategies based on income levels, terms, and grade distributions.  
+## Business Questions Addressed
+- What borrower characteristics correlate with high default rates?
+- How do loan purposes impact repayment behavior?
+- Can we identify creditworthy applicants based on key metrics?
+- Which credit bands represent higher risk vs low risk?
 
 ---
 
-## Repository Contents  
-- `Credit_Risk_Scoring.pbix` – Power BI report file  
-- `Dashboard_Screenshot.png` – Visual overview of the dashboard  
-- `Query.sql` – SQL query used for data extraction and preprocessing  
-- `README.md` – Project documentation  
+## Key Insights
+- **Dataset Size:** 2+ million records  
+- **Default Rate:** 14.2%  
+- **High-Risk Segments:** Small business loans, low credit score applicants (<640)  
+- **Low-Risk Segments:** Debt consolidation loans, verified incomes, applicants with credit scores above 700  
+- **Top Default Reason:** Unverified income and multiple open credit lines  
+
+---
+
+## Business Impact
+- Helps lenders **minimize risk exposure** by segmenting borrowers into creditworthiness bands  
+- Assists in building a **data-driven approval pipeline**  
+- Supports better **risk-adjusted pricing models** for different borrower types  
+- Enables **targeted credit policy reforms** based on historical behavior  
+
+---
+
+## Files Included
+- `Credit_Risk_Insights_Report.pdf`: Business analysis summary  
+- `Credit_Risk_Dashboard_Screenshot.png`: Dashboard preview  
+- `SQL_Query_Document.pdf`: Data extraction and scoring logic  
+- *(See below for full Power BI dashboard)*
+
+---
+
+## Power BI Dashboard File  
+Due to GitHub’s file size limits, the Power BI `.pbix` file is hosted externally.  
+Access and explore the full interactive dashboard here:  
+[Download Credit Risk Scoring Dashboard (.pbix)](https://drive.google.com/file/d/1-1k9S3XQ0y1vkwl3KXXc_e4Cm4IML2aL/view?usp=sharing)
 
 ---
 
 ## Contact  
 [LinkedIn – www.linkedin.com/in/prashanthnaik7](https://www.linkedin.com/in/prashanthnaik7)  
-*Data Analyst | Power BI, SQL, Excel | IBM Certified (in progress)*
+*Data Analyst | Power BI | SQL | Power Query | IBM Data Analyst Certification (in progress)*
+
 
