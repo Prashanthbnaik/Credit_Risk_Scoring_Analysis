@@ -40,7 +40,7 @@ This project analyzes loan application and borrower behavior data from LendingCl
 ## Files Included
 - `Credit_Risk_Insights_Report.pdf`: Business analysis summary  
 - `Credit_Risk_Dashboard_Screenshot.png`: Dashboard preview  
-- `SQL_Query_Document.pdf`: Data extraction and scoring logic  
+- `SQL_Query_Document.pdf`: Query report and Business Insights  
 - *(See below for full Power BI dashboard)*
 
 ---
